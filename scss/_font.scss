@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Simplifica';
+    src: url('../font/Simplifica.eot');
+    src: url('../font/Simplifica.eot?#iefix') format('embedded-opentype'),
+        url('../font/Simplifica.woff') format('woff'),
+        url('../font/Simplifica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4 { font-size: 120%; font-family: 'Simplifica'; letter-spacing: 8px; }
+h2, h3, h4 { text-align: center;  margin: 20px; text-transform: uppercase; }
+
+p, .main-menu { font-size: 1rem; font-family: 'arial', sans-serif;  margin-bottom: 20px; line-height: 1.6em; }
+
+.main-menu a { color: $white; text-transform: uppercase; font-size: 90%; text-decoration: underline; }
+.contact p a { color: $white;  text-decoration: none; }
+
+.about p,
+    .copyright p { width: 60%; }
+    .copyright p { font-size: 0.7rem; text-transform: uppercase; }
+
+@media ( max-width: 1064px ) {
+    h1, h2, h3, h4 { font-size: 110%; }
+}
+
+
+@media only screen and (min-width: 768px) and ( max-width: 1023px ) {
+   h1, h2, h3, h4 { font-size: 78%; }
+}
+@media ( max-width: 767px ) {
+    h1 { font-size: 90%; }
+    h2, h3, h4 { font-size: 140%; }
+    .biggie { font-size: 630%!important; }
+    
+}
+
+@media only screen and ( max-width: 479px ) {
+    h1 { font-size: 60%; }
+    h2, h3, h4 { font-size: 90%; }
+}
+

@@ -1,0 +1,306 @@
+@font-face {
+  font-family: 'Simplifica';
+  src: url("../font/Simplifica.eot");
+  src: url("../font/Simplifica.eot?#iefix") format("embedded-opentype"), url("../font/Simplifica.woff") format("woff"), url("../font/Simplifica.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+h1, h2, h3, h4 {
+  font-size: 120%;
+  font-family: 'Simplifica';
+  letter-spacing: 8px; }
+
+h2, h3, h4 {
+  text-align: center;
+  margin: 20px;
+  text-transform: uppercase; }
+
+p, .main-menu {
+  font-size: 1rem;
+  font-family: 'arial', sans-serif;
+  margin-bottom: 20px;
+  line-height: 1.6em; }
+
+.main-menu a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 90%;
+  text-decoration: underline; }
+
+.contact p a {
+  color: #fff;
+  text-decoration: none; }
+
+.about p,
+.copyright p {
+  width: 60%; }
+
+.copyright p {
+  font-size: 0.7rem;
+  text-transform: uppercase; }
+
+@media (max-width: 1064px) {
+  h1, h2, h3, h4 {
+    font-size: 110%; } }
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h1, h2, h3, h4 {
+    font-size: 78%; } }
+@media (max-width: 767px) {
+  h1 {
+    font-size: 90%; }
+
+  h2, h3, h4 {
+    font-size: 140%; }
+
+  .biggie {
+    font-size: 630% !important; } }
+@media only screen and (max-width: 479px) {
+  h1 {
+    font-size: 60%; }
+
+  h2, h3, h4 {
+    font-size: 90%; } }
+#contact-frm {
+  font-family: 'arial'; }
+  #contact-frm ul {
+    list-style: none; }
+    #contact-frm ul li {
+      margin-bottom: 20px; }
+      #contact-frm ul li input {
+        margin-top: 10px;
+        width: 100%;
+        height: 40px;
+        border: none;
+        background: #b8b7b7;
+        border-radius: 8px; }
+      #contact-frm ul li textarea {
+        margin-top: 10px;
+        width: 100%;
+        height: 150px;
+        border: none;
+        background: #b8b7b7;
+        border-radius: 8px; }
+      #contact-frm ul li .subbut {
+        border-radius: 8px; }
+      #contact-frm ul li .subbut:hover {
+        background-color: #1c1f22;
+        color: #fff; }
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+.cme {
+  text-align: center; }
+
+.key {
+  text-transform: uppercase; }
+
+.biggie {
+  font-size: 800%;
+  width: 20%; }
+
+.dydt--gridlayout {
+  display: grid;
+  width: 98.7vw;
+  height: 100vh; }
+
+.dydt--gridlayout {
+  grid-template-rows: repeat(8, auto);
+  grid-template-columns: repeat(4, minmax(200px, 0.7fr));
+  grid-template-areas: "header    header    header    header" "hero      hero      hero      hero" "services  services  services  services" "servicea  serviceb  servicec  serviced" "about     about     about     about" "contact   contact   contact   contact" "social    social    social    social" "footer    footer    footer    footer"; }
+
+.menu {
+  grid-area: header;
+  background: #444648;
+  padding: 1% 0 1% 2%; }
+
+.hero {
+  grid-area: hero;
+  background: #1c1f22;
+  padding: 9.5% 10% 2% 10%;
+  height: 30vh; }
+
+.service {
+  grid-area: services;
+  background: #444648; }
+
+.buddy {
+  grid-area: servicea;
+  background: #444648;
+  padding: 10%; }
+
+.consult {
+  grid-area: serviceb;
+  background: #444648;
+  padding: 10%; }
+
+.develop {
+  grid-area: servicec;
+  background: #444648;
+  padding: 10%; }
+
+.photograph {
+  grid-area: serviced;
+  background: #444648;
+  padding: 10%; }
+
+.about {
+  grid-area: about;
+  background: #1c1f22;
+  padding: 1.5% 5%  3%  5%; }
+
+.contact {
+  grid-area: contact;
+  background: #444648;
+  padding: 1.5% 0 0 2.5%; }
+
+.social {
+  grid-area: social;
+  background: #1c1f22;
+  padding: 10px; }
+
+.copyright {
+  grid-area: footer;
+  background: #1c1f22;
+  padding: 0.5% 1%; }
+
+.buddy img,
+.consult img,
+.develop img,
+.photograph img,
+.about p,
+.copyright p {
+  text-align: center;
+  display: block;
+  margin: 0 auto 20px auto; }
+
+.buddy .serv-title,
+.consult .serv-title,
+.develop .serv-title,
+.photograph .serv-title {
+  margin: 10px 0 10px 0;
+  text-align: center;
+  font-size: 160%;
+  font-family: 'Simplifica';
+  letter-spacing: 8px; }
+
+.logo {
+  float: left;
+  display: inline; }
+
+.main-menu {
+  float: left;
+  display: inline;
+  position: absolute;
+  top: 70px; }
+  .main-menu a {
+    border-bottom: 1px #fff dashed;
+    text-decoration: none; }
+
+p.serv-desc {
+  font-size: 80%;
+  text-align: center; }
+
+#contact-frm {
+  position: relative;
+  z-index: 9999; }
+
+.social-icons {
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
+
+.social a {
+  background: #b8b7b7;
+  border-radius: 32px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #1c1f22;
+  margin: 20px 10px 20px 0;
+  padding: 7px 0 0 1px;
+  font-size: 1.75rem; }
+
+.contact {
+  background: #444648 url("../img/contact-bg.png") no-repeat;
+  background-position: right bottom; }
+  .contact .contactlft {
+    float: left;
+    width: 50%; }
+  .contact .contactrgt {
+    float: left;
+    width: 40%;
+    padding-left: 5%; }
+
+@media (max-width: 1064px) {
+  .dydt--gridlayout {
+    grid-template-rows: repeat(9, auto);
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-template-areas: "header    header" "hero      hero" "services  services" "servicea  serviceb" "servicec  serviced" 		 "about     about" "contact   contact" "social    social" "footer    footer"; }
+
+  .hero {
+    height: 60vh; } }
+@media (max-width: 767px) {
+  .dydt--gridlayout {
+    grid-template-rows: repeat(11, auto);
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "hero" "services" "servicea" "serviceb"	 		 "servicec" "serviced"	 		 		 "about" "contact" "social" "footer"; } }
+@media only screen and (min-width: 1065px) and (max-width: 1380px) {
+  .hero {
+    padding: 5.5% 10% 2% 10%;
+    height: 60vh; } }
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .hero {
+    height: 50vh; }
+
+  .about p {
+    width: 80%; } }
+@media (max-width: 767px) {
+  .hero {
+    height: 40vh; }
+
+  .about p {
+    width: 80%; }
+
+  .buddy, .consult, .develop, .photograph {
+    padding: 3% 10% 3% 10% !important; } }
+@media only screen and (min-width: 0) and (max-width: 479px) {
+  .menu {
+    padding: 10px 10px 40px 10px; }
+
+  .logo {
+    width: 100%; }
+    .logo img {
+      display: block;
+      margin: auto; }
+
+  .main-menu {
+    width: 95%;
+    display: block;
+    margin: 20px auto;
+    top: 140px;
+    text-align: center; }
+
+  .hero {
+    height: 45vh !important; }
+
+  .contact {
+    background: #444648; }
+
+  .contactlft {
+    width: 94% !important; }
+
+  .contactrgt {
+    width: 80% !important; } }
+
+/*# sourceMappingURL=dydt.css.map */
