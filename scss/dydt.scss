@@ -38,9 +38,9 @@ body { margin:0; padding: 0;  color: $white; -webkit-font-smoothing: antialiased
 	}
 
 	.menu { grid-area: header; background: $light; padding: 1% 0 1% 2%; }
-	.hero { grid-area: hero; background: $dark; padding: 9.5% 10% 2% 10%; height: 30vh;}
-	.service { grid-area: services; background: $light;}
-	.buddy { grid-area: servicea; background:$light; padding: 10%;}
+	.hero { grid-area: hero; background: $dark; padding: 9.5% 10% 2% 10%; height: 30vh; }
+	.service { grid-area: services; background: $light; border: 0; }
+	.buddy { grid-area: servicea; background:$light; padding: 10%; }
 	.consult { grid-area: serviceb; background: $light; padding: 10%; }	
 	.develop { grid-area: servicec; background: $light; padding: 10%; }	
 	.photograph { grid-area: serviced; background: $light; padding: 10%; }	
@@ -132,34 +132,62 @@ body { margin:0; padding: 0;  color: $white; -webkit-font-smoothing: antialiased
 	}
 
 
-	@media only screen and ( min-width: 1065px ) and ( max-width: 1380px ) {
+//HEIGHTS
+
+@media (min-width: 321px) and (max-width: 767px) and (orientation:portrait) {
+	.hero { height: 50vh; }
+}
+
+@media (min-width: 321px) and (max-width: 767px) and (orientation:landscape) {
+	.hero { height: 70vh; }
+}
+
+@media (min-width: 0) and (max-width: 320px) and (orientation:portrait) {
+	.hero { height: 60vh; }
+}
+
+@media (min-width: 0) and (max-width: 320px) and (orientation:landscape) {
+	.hero { height: 120vh; }
+}
+
+	@media ( min-width: 1065px ) and ( max-width: 1380px ) {
 		.hero { padding: 5.5% 10% 2% 10%; height: 60vh;}
 	}
 
-	@media only screen and (min-width: 768px) and ( max-width: 1023px ) {
-		.hero { height: 50vh; }
+	@media (min-width: 768px) and ( max-width: 1023px ) {
 		.about p { width: 80%; }
 	}
 
 	@media ( max-width: 767px ) {
-		.hero { height: 40vh; }
-			
 		.about p { width: 80%; }
 		.buddy, .consult, .develop, .photograph { padding: 3% 10% 3% 10%!important; }
 	}
 
-	@media only screen and (min-width: 0) and ( max-width: 479px ) {
-		.menu { padding: 10px 10px 40px 10px; }
-		.logo { width: 100%; 
-			& img { display: block; margin: auto; }
-		}
-		.main-menu { width: 95%; display: block; margin: 20px auto; top: 140px; text-align: center; }
-		.hero { height: 45vh!important; }
 
-
-		.contact { background: $light; }
-		.contactlft { width: 94%!important; }
-		.contactrgt { width: 80%!important; }
+@media (min-width: 321px) and (max-width: 767px) {
+		
+	.menu { padding: 10px 10px 40px 10px; }
+		
+	.logo { width: 100%; 
+		& img { display: block; margin: auto; }
 	}
+		
+	.main-menu { width: 95%; display: block; margin: 20px auto; top: 140px; text-align: center; }
+	.contact { background: $light; }
+	.contactlft { width: 94%!important; }
+	.contactrgt { width: 80%!important; }
+}
 	
-  
+  @media (min-width: 0) and (max-width: 320px) {
+  	
+  	.menu { height:220px!important;}
+  	.logo { padding-top:10px; width: 100%; 
+		& img { display: block; margin: auto; }
+	}
+		
+	.main-menu { width: 95%; display: block; margin: 30px auto; top: 140px; text-align: center; }
+  	.hero { height: 50vh; }
+  	.contact { background: $light; }
+  	.contactlft { width: 94%!important; }
+	.contactrgt { width: 80%!important; }
+  }

@@ -1,0 +1,4 @@
+.gitattributes
+README.md
+/scss/.sass-cache/
+/css/dydt.css.map
