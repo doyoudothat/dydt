@@ -5,9 +5,14 @@
   font-weight: normal;
   font-style: normal; }
 h1, h2, h3, h4 {
-  font-size: 120%;
   font-family: 'Simplifica';
   letter-spacing: 8px; }
+
+h1 {
+  font-size: 120%; }
+
+h2, h3, h4 {
+  font-size: 140%; }
 
 h2, h3, h4 {
   text-align: center;
@@ -38,30 +43,27 @@ p, .main-menu {
   font-size: 0.7rem;
   text-transform: uppercase; }
 
-@media (max-width: 1064px) {
-  h1, h2, h3, h4 {
-    font-size: 110%; } }
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+  h2, h3, h4 {
+    font-size: 180%; } }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  h1, h2, h3, h4 {
-    font-size: 100%; } }
+  h2, h3, h4 {
+    font-size: 160%; } }
 @media (min-width: 321px) and (max-width: 767px) and (orientation: portrait) {
   h1 {
     font-size: 80%; }
 
-  h2, h3, h4 {
-    font-size: 160%; }
-
   .biggie {
-    font-size: 630% !important; } }
+    font-size: 600% !important; } }
 @media (min-width: 321px) and (max-width: 767px) and (orientation: landscape) {
   h1 {
     font-size: 80%; }
 
-  h2, h3, h4 {
-    font-size: 130%; }
-
   .biggie {
-    font-size: 530% !important; } }
+    font-size: 550% !important; }
+
+  label {
+    font-size: 70%; } }
 @media (min-width: 0) and (max-width: 320px) and (orientation: portrait) {
   h1 {
     font-size: 70%; }
@@ -70,7 +72,7 @@ p, .main-menu {
     font-size: 120%; }
 
   .biggie {
-    font-size: 630% !important; } }
+    font-size: 600% !important; } }
 @media (min-width: 0) and (max-width: 320px) and (orientation: landscape) {
   h1 {
     font-size: 70%; }
@@ -152,7 +154,8 @@ body {
 .service {
   grid-area: services;
   background: #444648;
-  border: 0; }
+  border: 0;
+  padding: 1% 0 0.5% 0; }
 
 .buddy {
   grid-area: servicea;
@@ -277,6 +280,9 @@ p.serv-desc {
     grid-template-rows: repeat(11, auto);
     grid-template-columns: 1fr;
     grid-template-areas: "header" "hero" "services" "servicea" "serviceb"	 		 "servicec" "serviced"	 		 		 "about" "contact" "social" "footer"; } }
+@media (min-width: 1380px) {
+  .hero {
+    height: 70vh; } }
 @media (min-width: 321px) and (max-width: 767px) and (orientation: portrait) {
   .hero {
     height: 50vh; } }
@@ -289,6 +295,38 @@ p.serv-desc {
 @media (min-width: 0) and (max-width: 320px) and (orientation: landscape) {
   .hero {
     height: 120vh; } }
+/* Tablets in landscape mode (981-1100px) */
+@media only screen and (min-width: 981px) and (max-width: 1100px) {
+  .menu {
+    height: 25vh; }
+
+  .hero {
+    height: 70vh; }
+
+  .services {
+    height: 5vh; }
+
+  .contact {
+    height: 100vh; }
+
+  .about p {
+    width: 80%; }
+
+  .buddy, .consult, .develop, .photograph {
+    padding: 3% 10% 3% 10%; } }
+/* Tablets in portrait mode (768-980px) */
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+  .menu {
+    height: 17vh; }
+
+  .hero {
+    height: 50vh; }
+
+  .contact {
+    height: 80vh; }
+
+  .buddy, .consult, .develop, .photograph {
+    padding: 3% 10% 3% 10%; } }
 @media (min-width: 1065px) and (max-width: 1380px) {
   .hero {
     padding: 5.5% 10% 2% 10%;

@@ -39,7 +39,7 @@ body { margin:0; padding: 0;  color: $white; -webkit-font-smoothing: antialiased
 
 	.menu { grid-area: header; background: $light; padding: 1% 0 1% 2%; }
 	.hero { grid-area: hero; background: $dark; padding: 9.5% 10% 2% 10%; height: 30vh; }
-	.service { grid-area: services; background: $light; border: 0; }
+	.service { grid-area: services; background: $light; border: 0; padding: 1% 0 0.5% 0; }
 	.buddy { grid-area: servicea; background:$light; padding: 10%; }
 	.consult { grid-area: serviceb; background: $light; padding: 10%; }	
 	.develop { grid-area: servicec; background: $light; padding: 10%; }	
@@ -134,34 +134,43 @@ body { margin:0; padding: 0;  color: $white; -webkit-font-smoothing: antialiased
 
 //HEIGHTS
 
-@media (min-width: 321px) and (max-width: 767px) and (orientation:portrait) {
-	.hero { height: 50vh; }
+@media ( min-width: 1380px ) { .hero { height: 70vh; } }
+@media (min-width: 321px) and (max-width: 767px) and (orientation:portrait) { .hero { height: 50vh; } }
+@media (min-width: 321px) and (max-width: 767px) and (orientation:landscape) { .hero { height: 70vh; } }
+@media (min-width: 0) and (max-width: 320px) and (orientation:portrait) { .hero { height: 60vh; } }
+@media (min-width: 0) and (max-width: 320px) and (orientation:landscape) { .hero { height: 120vh; } }
+
+
+/* Tablets in landscape mode (981-1100px) */
+@media only screen and ( min-width: 981px ) and ( max-width: 1100px ) { 
+    .menu { height: 25vh; }
+    .hero { height: 70vh; }
+    .services { height: 5vh; }
+    .contact { height: 100vh; }
+    .about p { width: 80%; }
+    .buddy, .consult, .develop, .photograph { padding: 3% 10% 3% 10%; }
 }
 
-@media (min-width: 321px) and (max-width: 767px) and (orientation:landscape) {
-	.hero { height: 70vh; }
+/* Tablets in portrait mode (768-980px) */
+@media only screen and ( min-width: 768px ) and ( max-width: 980px ) {
+    .menu { height: 17vh; }
+    .hero { height: 50vh; }
+    .contact { height: 80vh; }
+    .buddy, .consult, .develop, .photograph { padding: 3% 10% 3% 10%; }
 }
 
-@media (min-width: 0) and (max-width: 320px) and (orientation:portrait) {
-	.hero { height: 60vh; }
+@media ( min-width: 1065px ) and ( max-width: 1380px ) {
+	.hero { padding: 5.5% 10% 2% 10%; height: 60vh;}
 }
 
-@media (min-width: 0) and (max-width: 320px) and (orientation:landscape) {
-	.hero { height: 120vh; }
+@media (min-width: 768px) and ( max-width: 1023px ) {
+	.about p { width: 80%; }
 }
 
-	@media ( min-width: 1065px ) and ( max-width: 1380px ) {
-		.hero { padding: 5.5% 10% 2% 10%; height: 60vh;}
-	}
-
-	@media (min-width: 768px) and ( max-width: 1023px ) {
-		.about p { width: 80%; }
-	}
-
-	@media ( max-width: 767px ) {
-		.about p { width: 80%; }
-		.buddy, .consult, .develop, .photograph { padding: 3% 10% 3% 10%!important; }
-	}
+@media ( max-width: 767px ) {
+	.about p { width: 80%; }
+	.buddy, .consult, .develop, .photograph { padding: 3% 10% 3% 10%!important; }
+}
 
 
 @media (min-width: 321px) and (max-width: 767px) {
