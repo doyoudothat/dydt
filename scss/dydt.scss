@@ -5,76 +5,72 @@
 
 body { margin:0; padding: 0;  color: $white; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
-	*{
-  		box-sizing: border-box;
-  		padding: 0;
-  		margin: 0;
-	}
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
 
+.cme { text-align: center; }
+.key { text-transform: uppercase; }
+.biggie { font-size: 800%; width:20%; }
 
+.dydt--gridlayout {
+	display:grid;
+	width: 98.7vw;
+	height: 100vh;
+}
 
-	.cme { text-align: center; }
-	.key { text-transform: uppercase; }
-	.biggie { font-size: 800%; width:20%; }
+.dydt--gridlayout {
+	grid-template-rows: repeat(8, auto);
+	grid-template-columns: repeat(4, minmax(200px, 0.7fr));
+	grid-template-areas: 
+	"header    header    header    header"
+	"hero      hero      hero      hero"
+	"services  services  services  services"
+	"servicea  serviceb  servicec  serviced"
+	"about     about     about     about"
+	"contact   contact   contact   contact"
+	"social    social    social    social"
+	"footer    footer    footer    footer";
+}
+
+.menu { grid-area: header; background: $light; padding: 1% 0 1% 2%; }
+.hero { grid-area: hero; background: $dark; padding: 9.5% 10% 2% 10%; height: 30vh; }
+.service { grid-area: services; background: $light; border: 0; padding: 1% 0 0.5% 0; }
+.buddy { grid-area: servicea; background:$light; padding: 10%; }
+.consult { grid-area: serviceb; background: $light; padding: 10%; }	
+.develop { grid-area: servicec; background: $light; padding: 10%; }	
+.photograph { grid-area: serviced; background: $light; padding: 10%; }	
+.about { grid-area: about; background: $dark; padding: 1.5% 5%  3%  5%; }
+.contact { grid-area: contact; background: $light; padding: 1.5% 0 0 2.5%;  }
+.social { grid-area: social; background: $dark; padding: 10px; }
+.copyright { grid-area: footer; background: $dark; padding: 0.5% 1%; }
+
+.buddy img, 
+.consult img, 
+.develop img, 
+.photograph img, 
+.about p,
+.copyright p { text-align: center; display:block; margin: 0 auto 20px auto; } 
+
+.buddy .serv-title, 
+.consult .serv-title, 
+.develop .serv-title, 
+.photograph .serv-title { margin: 10px 0 10px 0; text-align: center; font-size: 160%; font-family: 'Simplifica'; letter-spacing: 8px; }
+
+.logo { float: left; display: inline; }
+.main-menu { float:left; display:inline; position:absolute; top: 70px; 
+	& a { border-bottom: 1px #fff dashed; text-decoration: none; }
+}
+
+p.serv-desc { font-size: 80%; text-align: center; }
+
+#contact-frm { position:relative; z-index: 9999; }
+
+.social-icons {  display: block; margin: 0 auto; text-align: center; }
 	
-	.dydt--gridlayout {
- 		display:grid;
- 		width: 98.7vw;
- 		height: 100vh;
- 	}
-
-	.dydt--gridlayout {
- 		grid-template-rows: repeat(8, auto);
- 		grid-template-columns: repeat(4, minmax(200px, 0.7fr));
- 		grid-template-areas: 
- 		"header    header    header    header"
- 		"hero      hero      hero      hero"
- 		"services  services  services  services"
- 		"servicea  serviceb  servicec  serviced"
- 		"about     about     about     about"
- 		"contact   contact   contact   contact"
- 		"social    social    social    social"
- 		"footer    footer    footer    footer";
-	}
-
-	.menu { grid-area: header; background: $light; padding: 1% 0 1% 2%; }
-	.hero { grid-area: hero; background: $dark; padding: 9.5% 10% 2% 10%; height: 30vh; }
-	.service { grid-area: services; background: $light; border: 0; padding: 1% 0 0.5% 0; }
-	.buddy { grid-area: servicea; background:$light; padding: 10%; }
-	.consult { grid-area: serviceb; background: $light; padding: 10%; }	
-	.develop { grid-area: servicec; background: $light; padding: 10%; }	
-	.photograph { grid-area: serviced; background: $light; padding: 10%; }	
-	.about { grid-area: about; background: $dark; padding: 1.5% 5%  3%  5%; }
- 	.contact { grid-area: contact; background: $light; padding: 1.5% 0 0 2.5%;  }
- 	.social { grid-area: social; background: $dark; padding: 10px; }
- 	.copyright { grid-area: footer; background: $dark; padding: 0.5% 1%; }
-
- 	.buddy img, 
- 	.consult img, 
- 	.develop img, 
- 	.photograph img, 
- 	.about p,
- 	.copyright p { text-align: center; display:block; margin: 0 auto 20px auto; } 
-
- 	.buddy .serv-title, 
- 	.consult .serv-title, 
- 	.develop .serv-title, 
- 	.photograph .serv-title { margin: 10px 0 10px 0; text-align: center; font-size: 160%; font-family: 'Simplifica'; letter-spacing: 8px; }
-
- 	
-
-	.logo { float: left; display: inline; }
-	.main-menu { float:left; display:inline; position:absolute; top: 70px; 
-		& a { border-bottom: 1px #fff dashed; text-decoration: none; }
-	}
-
-	p.serv-desc { font-size: 80%; text-align: center; }
-
-	#contact-frm { position:relative; z-index: 9999; }
-
-	.social-icons {  display: block; margin: 0 auto; text-align: center; }
-	
-	.social a {
+.social a {
     background: $elements;
     border-radius: 32px;
     display: inline-block;
@@ -89,47 +85,47 @@ body { margin:0; padding: 0;  color: $white; -webkit-font-smoothing: antialiased
 }
 
 .contact { background: $light url('../img/contact-bg.png') no-repeat; background-position: right bottom; 
-  & .contactlft { float: left; width: 50%;  }
-  & .contactrgt { float: left; width: 40%; padding-left: 5%; }
+  	& .contactlft { float: left; width: 50%;  }
+  	& .contactrgt { float: left; width: 40%; padding-left: 5%; }
 }
 
-	@media ( max-width: 1064px ) {
-		.dydt--gridlayout {	 		
-	 		grid-template-rows: repeat(9, auto);
-	 		grid-template-columns: repeat(2, minmax(200px, 1fr));
-	 		grid-template-areas: 
-	 		"header    header"
-	 		"hero      hero"
-	 		"services  services"
-	 		"servicea  serviceb"
-	 		"servicec  serviced" 		
-	 		"about     about"
-	 		"contact   contact"
-	 		"social    social"
-	 		"footer    footer";
-		}
-
-		.hero { height: 60vh; }		
-	}	
-
-	@media ( max-width: 767px ) {
-		.dydt--gridlayout {	 		
-	 		grid-template-rows: repeat(11, auto);
-	 		grid-template-columns: 1fr;
-	 		grid-template-areas: 
-	 		"header"
-	 		"hero"
-	 		"services"
-	 		"servicea"
-	 		"serviceb"	 		
-	 		"servicec"
-	 		"serviced"	 		 		
-	 		"about"
-	 		"contact"
-	 		"social"
-	 		"footer";
-		}
+@media ( max-width: 1064px ) {
+	.dydt--gridlayout {	 		
+ 		grid-template-rows: repeat(9, auto);
+ 		grid-template-columns: repeat(2, minmax(200px, 1fr));
+ 		grid-template-areas: 
+ 		"header    header"
+ 		"hero      hero"
+ 		"services  services"
+ 		"servicea  serviceb"
+ 		"servicec  serviced" 		
+ 		"about     about"
+ 		"contact   contact"
+ 		"social    social"
+ 		"footer    footer";
 	}
+
+	.hero { height: 60vh; }		
+}	
+
+@media ( max-width: 767px ) {
+	.dydt--gridlayout {	 		
+ 		grid-template-rows: repeat(11, auto);
+ 		grid-template-columns: 1fr;
+ 		grid-template-areas: 
+ 		"header"
+ 		"hero"
+ 		"services"
+ 		"servicea"
+ 		"serviceb"	 		
+ 		"servicec"
+ 		"serviced"	 		 		
+ 		"about"
+ 		"contact"
+ 		"social"
+ 		"footer";
+	}
+}
 
 
 //HEIGHTS
@@ -172,7 +168,6 @@ body { margin:0; padding: 0;  color: $white; -webkit-font-smoothing: antialiased
 	.buddy, .consult, .develop, .photograph { padding: 3% 10% 3% 10%!important; }
 }
 
-
 @media (min-width: 321px) and (max-width: 767px) {
 		
 	.menu { padding: 10px 10px 40px 10px; }
@@ -182,12 +177,10 @@ body { margin:0; padding: 0;  color: $white; -webkit-font-smoothing: antialiased
 	}
 		
 	.main-menu { width: 95%; display: block; margin: 20px auto; top: 140px; text-align: center; }
-	.contact { background: $light; }
-	.contactlft { width: 94%!important; }
-	.contactrgt { width: 80%!important; }
+
 }
 	
-  @media (min-width: 0) and (max-width: 320px) {
+@media (min-width: 0) and (max-width: 320px) {
   	
   	.menu { height:220px!important;}
   	.logo { padding-top:10px; width: 100%; 
@@ -196,7 +189,5 @@ body { margin:0; padding: 0;  color: $white; -webkit-font-smoothing: antialiased
 		
 	.main-menu { width: 95%; display: block; margin: 30px auto; top: 140px; text-align: center; }
   	.hero { height: 50vh; }
-  	.contact { background: $light; }
-  	.contactlft { width: 94%!important; }
-	.contactrgt { width: 80%!important; }
-  }
+
+}

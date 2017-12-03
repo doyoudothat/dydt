@@ -1,27 +1,70 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-GB" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-GB" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-GB" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-GB" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<!--<![endif]-->
 <head>
-	<title>Web Development and Design Services for Cornwall and beyond | Do You Do That?</title>
-	<link rel="stylesheet" href="font/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" id="dydy-css"  href="css/dydt.css" type="text/css" media="all" />
-	<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Web Development. Photographic and Design Services for Cornwall, UK and International | Do You Do That?</title>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Small, Medium or Large companies in Cornwall and beyond, if you need to help starting projects, help with websites, need photos for brochures, then Do You Do That can help support you with our keep it simple ethos"/>
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Web Development. Photographic and Design Services for Cornwall, UK and International" />
+<meta property="og:description" content="Small, Medium or Large companies in Cornwall and beyond, if you need to help starting projects, help with websites, need photos for brochures, then Do You Do That can help support you with our keep it simple ethos" />
+<meta property="og:url" content="http://www.doyoudothatuk.co.uk/" />
+<meta property="og:site_name" content="Do You Do That?" />
+<meta property="og:image" content="http://www.doyoudothatuk.co.uk/img/dydt-logo.png" />
+<meta property="og:image:secure_url" content="http://www.doyoudothatuk.co.uk/img/dydt-logo.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Small, Medium or Large companies in Cornwall and beyond, if you need to help starting projects, help with websites, need photos for brochures, then Do You Do That can help support you with our keep it simple ethos" />
+<meta name="twitter:title" content="Web Development. Photographic and Design Services for Cornwall, UK and International" />
+<meta name="twitter:site" content="@doyoudothatuk" />
+<meta name="twitter:image" content="http://www.doyoudothatuk.co.uk/img/dydt-logo.png" />
+<meta name="twitter:creator" content="@doyoudothatuk" />
+<meta name="msapplication-TileColor" content="#1c1f22">
+<meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+<meta name="theme-color" content="#1c1f22">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="http://www.doyoudothatuk.co.uk/" />
+<link rel="stylesheet" href="font/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" id="dydy-css"  href="css/dydt.css" type="text/css" media="all" />
+<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="img/manifest.json">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MWRHDTM');</script>
+<!-- End Google Tag Manager -->
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWRHDTM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div class="dydt--gridlayout">
 	<div class="dydt-row menu">
 		<div class="logo"><img src="img/dydt-logo.png" height="150" width="170"/></div>
@@ -32,22 +75,22 @@
 	<div class="dydt-row service"><h2>Our (not so secret) formula DYDT = (B<sub>y</sub>+C<sub>t</sub>D<sub>p</sub>)/P<sub>h</sub><sup>2</sup></h2></div>
 	<a name="forumla"></a><div class="dydt-row buddy">
 		<img src="img/by.png" height="150" width="150" />
-		<p class="serv-title">BUDDY</p>
+		<p class="serv-title">Buddy</p>
 		<p class="serv-desc">Need a spare pair of hands loading up content, doing social or processing images? Do you need a second shooter to help you on shoots. Let us help ease the burden.</p>
 	</div>
 	<div class="dydt-row consult">
 		<img src="img/ct.png" height="150" width="150" />
-		<p class="serv-title">CONSULT</p>
+		<p class="serv-title">Consult</p>
 		<p class="serv-desc">We offer pre-project services including undertaking Feasibility Studies and helping to write requirement documents for companies looking to start new projects.</p>
 	</div>
 	<div class="dydt-row develop">
 		<img src="img/dp.png" height="150" width="150" />
-		<p class="serv-title">DEVELOP</p>
+		<p class="serv-title">Develop</p>
 		<p class="serv-desc">We develop websites based on the Wordpress platform, working with small, medium and large companies and not just Cornwall or the UK to explore new opportunities online.</p>
 	</div>
 	<div class="dydt-row photograph">
 		<img src="img/ph.png" height="150" width="150" />
-		<p class="serv-title">PHOTOGRAPH</p>
+		<p class="serv-title">Photograph</p>
 		<p class="serv-desc">From PR to commissioned shoots, we have everything to take and process images ready for publication. We also offer post-processing services to make images shine.</p>
 	</div>
 	<a name="about"></a>
@@ -87,4 +130,3 @@
 </div>
 </body>
 </html>
-
