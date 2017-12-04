@@ -9,7 +9,8 @@ h1, h2, h3, h4 {
   letter-spacing: 8px; }
 
 h1 {
-  font-size: 120%; }
+  font-size: 120%;
+  margin-bottom: 20px; }
 
 h2, h3, h4 {
   font-size: 140%; }
@@ -29,11 +30,31 @@ p, .main-menu {
   color: #fff;
   text-transform: uppercase;
   font-size: 90%;
-  text-decoration: underline; }
+  text-decoration: underline;
+  cursor: pointer; }
+
+.main-menu a:hover {
+  color: #b8b7b7; }
 
 .contact p a {
   color: #fff;
   text-decoration: none; }
+
+a.cta {
+  font-family: 'Simplifica';
+  padding: 15px 20px 15px 20px;
+  background-color: #b8b7b7;
+  border-radius: 8px;
+  font-size: 200%;
+  margin-top: 20px;
+  letter-spacing: 5px;
+  cursor: pointer;
+  color: #1c1f22;
+  text-align: center; }
+
+a.cta:hover {
+  background-color: #444648;
+  color: #fff; }
 
 .about p,
 .copyright p {
@@ -57,7 +78,10 @@ p, .main-menu {
     font-size: 80%; }
 
   .biggie {
-    font-size: 600% !important; } }
+    font-size: 600% !important; }
+
+  a.cta {
+    font-size: 100%; } }
 @media (min-width: 321px) and (max-width: 767px) and (orientation: landscape) {
   h1 {
     font-size: 80%; }
@@ -66,7 +90,10 @@ p, .main-menu {
     font-size: 550% !important; }
 
   label {
-    font-size: 70%; } }
+    font-size: 70%; }
+
+  a.cta {
+    font-size: 100%; } }
 @media (min-width: 0) and (max-width: 320px) and (orientation: portrait) {
   h1 {
     font-size: 70%; }
@@ -97,14 +124,16 @@ p, .main-menu {
         height: 40px;
         border: none;
         background: #b8b7b7;
-        border-radius: 8px; }
+        border-radius: 8px;
+        padding-left: 10px; }
       #contact-frm ul li textarea {
         margin-top: 10px;
         width: 100%;
         height: 150px;
         border: none;
         background: #b8b7b7;
-        border-radius: 8px; }
+        border-radius: 8px;
+        padding: 10px; }
       #contact-frm ul li .subbut {
         border-radius: 8px; }
       #contact-frm ul li .subbut:hover {
@@ -159,7 +188,7 @@ body {
 .dydt--gridlayout {
   grid-template-rows: repeat(8, auto);
   grid-template-columns: repeat(4, minmax(200px, 0.7fr));
-  grid-template-areas: "header    header    header    header" "hero      hero      hero      hero" "services  services  services  services" "servicea  serviceb  servicec  serviced" "about     about     about     about" "contact   contact   contact   contact" "social    social    social    social" "footer    footer    footer    footer"; }
+  grid-template-areas: "header    header    header    header" "hero      hero      hero      hero" "services  services  services  services" "servicea  serviceb  servicec  serviced" "aboutus   aboutus   aboutus   aboutus" "contact   contact   contact   contact" "social    social    social    social" "footer    footer    footer    footer"; }
 
 .menu {
   grid-area: header;
@@ -169,7 +198,7 @@ body {
 .hero {
   grid-area: hero;
   background: #1c1f22;
-  padding: 9.5% 10% 2% 10%;
+  padding: 6.5% 10% 2% 10%;
   height: 30vh; }
 
 .service {
@@ -198,8 +227,8 @@ body {
   background: #444648;
   padding: 10%; }
 
-.about {
-  grid-area: about;
+.aboutus {
+  grid-area: aboutus;
   background: #1c1f22;
   padding: 1.5% 5%  3%  5%; }
 
@@ -222,7 +251,7 @@ body {
 .consult img,
 .develop img,
 .photograph img,
-.about p,
+.aboutus p,
 .copyright p {
   text-align: center;
   display: block;
@@ -292,7 +321,7 @@ p.serv-desc {
   .dydt--gridlayout {
     grid-template-rows: repeat(9, auto);
     grid-template-columns: repeat(2, minmax(200px, 1fr));
-    grid-template-areas: "header    header" "hero      hero" "services  services" "servicea  serviceb" "servicec  serviced" 		 "about     about" "contact   contact" "social    social" "footer    footer"; }
+    grid-template-areas: "header    header" "hero      hero" "services  services" "servicea  serviceb" "servicec  serviced" 		 "aboutus   aboutus" "contact   contact" "social    social" "footer    footer"; }
 
   .hero {
     height: 60vh; } }
@@ -300,13 +329,13 @@ p.serv-desc {
   .dydt--gridlayout {
     grid-template-rows: repeat(11, auto);
     grid-template-columns: 1fr;
-    grid-template-areas: "header" "hero" "services" "servicea" "serviceb"	 		 "servicec" "serviced"	 		 		 "about" "contact" "social" "footer"; } }
+    grid-template-areas: "header" "hero" "services" "servicea" "serviceb"	 		 "servicec" "serviced"	 		 		 "aboutus" "contact" "social" "footer"; } }
 @media (min-width: 1380px) {
   .hero {
     height: 70vh; } }
 @media (min-width: 321px) and (max-width: 767px) and (orientation: portrait) {
   .hero {
-    height: 50vh; } }
+    height: 60vh; } }
 @media (min-width: 321px) and (max-width: 767px) and (orientation: landscape) {
   .hero {
     height: 70vh; } }
@@ -322,7 +351,7 @@ p.serv-desc {
     height: 25vh; }
 
   .hero {
-    height: 70vh; }
+    height: 80vh; }
 
   .services {
     height: 5vh; }
@@ -330,7 +359,7 @@ p.serv-desc {
   .contact {
     height: 100vh; }
 
-  .about p {
+  .aboutus p {
     width: 80%; }
 
   .buddy, .consult, .develop, .photograph {
@@ -341,7 +370,7 @@ p.serv-desc {
     height: 17vh; }
 
   .hero {
-    height: 50vh; }
+    height: 60vh; }
 
   .contact {
     height: 80vh; }
@@ -353,10 +382,10 @@ p.serv-desc {
     padding: 5.5% 10% 2% 10%;
     height: 60vh; } }
 @media (min-width: 768px) and (max-width: 1023px) {
-  .about p {
+  .aboutus p {
     width: 80%; } }
 @media (max-width: 767px) {
-  .about p {
+  .aboutus p {
     width: 80%; }
 
   .buddy, .consult, .develop, .photograph {

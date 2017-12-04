@@ -2,7 +2,6 @@
 @import 'font';
 @import 'form';
 
-
 body { margin:0; padding: 0;  color: $white; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 *{
@@ -29,20 +28,20 @@ body { margin:0; padding: 0;  color: $white; -webkit-font-smoothing: antialiased
 	"hero      hero      hero      hero"
 	"services  services  services  services"
 	"servicea  serviceb  servicec  serviced"
-	"about     about     about     about"
+	"aboutus   aboutus   aboutus   aboutus"
 	"contact   contact   contact   contact"
 	"social    social    social    social"
 	"footer    footer    footer    footer";
 }
 
 .menu { grid-area: header; background: $light; padding: 1% 0 1% 2%; }
-.hero { grid-area: hero; background: $dark; padding: 9.5% 10% 2% 10%; height: 30vh; }
+.hero { grid-area: hero; background: $dark; padding: 6.5% 10% 2% 10%; height: 30vh; }
 .service { grid-area: services; background: $light; border: 0; padding: 1% 0 0.5% 0; }
 .buddy { grid-area: servicea; background:$light; padding: 10%; }
 .consult { grid-area: serviceb; background: $light; padding: 10%; }	
 .develop { grid-area: servicec; background: $light; padding: 10%; }	
 .photograph { grid-area: serviced; background: $light; padding: 10%; }	
-.about { grid-area: about; background: $dark; padding: 1.5% 5%  3%  5%; }
+.aboutus { grid-area: aboutus; background: $dark; padding: 1.5% 5%  3%  5%; }
 .contact { grid-area: contact; background: $light; padding: 1.5% 0 0 2.5%;  }
 .social { grid-area: social; background: $dark; padding: 10px; }
 .copyright { grid-area: footer; background: $dark; padding: 0.5% 1%; }
@@ -51,7 +50,7 @@ body { margin:0; padding: 0;  color: $white; -webkit-font-smoothing: antialiased
 .consult img, 
 .develop img, 
 .photograph img, 
-.about p,
+.aboutus p,
 .copyright p { text-align: center; display:block; margin: 0 auto 20px auto; } 
 
 .buddy .serv-title, 
@@ -99,7 +98,7 @@ p.serv-desc { font-size: 80%; text-align: center; }
  		"services  services"
  		"servicea  serviceb"
  		"servicec  serviced" 		
- 		"about     about"
+ 		"aboutus   aboutus"
  		"contact   contact"
  		"social    social"
  		"footer    footer";
@@ -120,7 +119,7 @@ p.serv-desc { font-size: 80%; text-align: center; }
  		"serviceb"	 		
  		"servicec"
  		"serviced"	 		 		
- 		"about"
+ 		"aboutus"
  		"contact"
  		"social"
  		"footer";
@@ -131,7 +130,7 @@ p.serv-desc { font-size: 80%; text-align: center; }
 //HEIGHTS
 
 @media ( min-width: 1380px ) { .hero { height: 70vh; } }
-@media (min-width: 321px) and (max-width: 767px) and (orientation:portrait) { .hero { height: 50vh; } }
+@media (min-width: 321px) and (max-width: 767px) and (orientation:portrait) { .hero { height: 60vh; } }
 @media (min-width: 321px) and (max-width: 767px) and (orientation:landscape) { .hero { height: 70vh; } }
 @media (min-width: 0) and (max-width: 320px) and (orientation:portrait) { .hero { height: 60vh; } }
 @media (min-width: 0) and (max-width: 320px) and (orientation:landscape) { .hero { height: 120vh; } }
@@ -140,17 +139,17 @@ p.serv-desc { font-size: 80%; text-align: center; }
 /* Tablets in landscape mode (981-1100px) */
 @media only screen and ( min-width: 981px ) and ( max-width: 1100px ) { 
     .menu { height: 25vh; }
-    .hero { height: 70vh; }
+    .hero { height: 80vh; }
     .services { height: 5vh; }
     .contact { height: 100vh; }
-    .about p { width: 80%; }
+    .aboutus p { width: 80%; }
     .buddy, .consult, .develop, .photograph { padding: 3% 10% 3% 10%; }
 }
 
 /* Tablets in portrait mode (768-980px) */
 @media only screen and ( min-width: 768px ) and ( max-width: 980px ) {
     .menu { height: 17vh; }
-    .hero { height: 50vh; }
+    .hero { height: 60vh; }
     .contact { height: 80vh; }
     .buddy, .consult, .develop, .photograph { padding: 3% 10% 3% 10%; }
 }
@@ -160,11 +159,11 @@ p.serv-desc { font-size: 80%; text-align: center; }
 }
 
 @media (min-width: 768px) and ( max-width: 1023px ) {
-	.about p { width: 80%; }
+	.aboutus p { width: 80%; }
 }
 
 @media ( max-width: 767px ) {
-	.about p { width: 80%; }
+	.aboutus p { width: 80%; }
 	.buddy, .consult, .develop, .photograph { padding: 3% 10% 3% 10%!important; }
 }
 

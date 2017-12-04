@@ -10,14 +10,19 @@
 
 
 h1, h2, h3, h4 {  font-family: 'Simplifica'; letter-spacing: 8px; }
-h1 { font-size: 120%; }
+h1 { font-size: 120%; margin-bottom: 20px; }
 h2, h3, h4 { font-size: 140%; }
 h2, h3, h4 { text-align: center;  margin: 20px; text-transform: uppercase; }
 
 p, .main-menu { font-size: 1rem; font-family: 'arial', sans-serif;  margin-bottom: 20px; line-height: 1.6em; }
 
-.main-menu a { color: $white; text-transform: uppercase; font-size: 90%; text-decoration: underline; }
-.contact p a { color: $white;  text-decoration: none; }
+.main-menu a { color: $white; text-transform: uppercase; font-size: 90%; text-decoration: underline; cursor: pointer; }
+.main-menu a:hover { color: $elements; }
+.contact p a { color: $white;  text-decoration: none; } 
+
+a.cta { font-family: 'Simplifica'; padding: 15px 20px 15px 20px; background-color: $elements; border-radius: 8px; font-size: 200%; margin-top: 20px;  letter-spacing: 5px; cursor: pointer; color: $dark; text-align: center; }
+
+a.cta:hover { background-color: $light; color: $white; }
 
 .about p,
     .copyright p { width: 60%; }
@@ -36,18 +41,21 @@ p, .main-menu { font-size: 1rem; font-family: 'arial', sans-serif;  margin-botto
 @media (min-width: 321px) and (max-width: 767px) and (orientation:portrait) {
     h1 { font-size: 80%; }
     .biggie { font-size: 600%!important; }
+        a.cta { font-size: 100%;  }
 }
 
 @media (min-width: 321px) and (max-width: 767px) and (orientation:landscape) {
     h1 { font-size: 80%; }
     .biggie { font-size: 550%!important; }
     label { font-size: 70%; }
+        a.cta { font-size: 100%;  }
 }
 
  @media (min-width: 0) and (max-width: 320px) and (orientation:portrait) {
      h1 { font-size: 70%; }
     h2, h3, h4 { font-size: 120%; }
     .biggie { font-size: 600%!important; }
+
 }
 
 @media (min-width: 0) and (max-width: 320px) and (orientation:landscape) {
