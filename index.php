@@ -22,13 +22,12 @@
 <meta property="og:description" content="Small, Medium or Large companies in Cornwall and beyond, if you need to help starting projects, help with websites, need photos for brochures, then Do You Do That can help support you with our keep it simple ethos" />
 <meta property="og:url" content="http://www.doyoudothatuk.co.uk/" />
 <meta property="og:site_name" content="Do You Do That?" />
-<meta property="og:image" content="http://www.doyoudothatuk.co.uk/img/dydt-logo.png" />
-<meta property="og:image:secure_url" content="http://www.doyoudothatuk.co.uk/img/dydt-logo.png" />
+<meta property="og:image" content="http://www.doyoudothatuk.co.uk/img/og-dydt.jpg" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:description" content="Small, Medium or Large companies in Cornwall and beyond, if you need to help starting projects, help with websites, need photos for brochures, then Do You Do That can help support you with our keep it simple ethos" />
 <meta name="twitter:title" content="Web Development. Photographic and Design Services for Cornwall, UK and International" />
 <meta name="twitter:site" content="@doyoudothatuk" />
-<meta name="twitter:image" content="http://www.doyoudothatuk.co.uk/img/dydt-logo.png" />
+<meta name="twitter:image" content="http://www.doyoudothatuk.co.uk/img/og-dydt.jpg" />
 <meta name="twitter:creator" content="@doyoudothatuk" />
 <meta name="msapplication-TileColor" content="#1c1f22">
 <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
@@ -51,8 +50,7 @@
 <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
 <link rel="manifest" href="img/manifest.json">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type='text/javascript' src='js/dydt.js?ver=1.0.0'></script>
+
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -69,29 +67,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="dydt--gridlayout">
 	<div class="dydt-row menu">
-		<div class="logo"><img src="img/dydt-logo.png" height="150" width="170"/></div>
+		<div class="logo"><img src="img/dydt-logo.png" height="150" width="170"/ alt="Do You Do That Logo"></div>
 		<div class="main-menu"><a class="formula">Formula</a>&nbsp;/&nbsp;<a class="about">About</a>&nbsp;/&nbsp;<a class="contactus">Contact</a></div>
 	</div>
 	<div class="dydt-row hero"><div class="key"><h1>When I meet people I'm often asked<br/><span class="biggie">DO YOU DO THAT?</span><br/> Well, we do lots of things, so how can we help you?</h1><br><a class="contactus cta">How can we help you?</a></div></div>
 	
-	<div class="dydt-row service"><h2>Our (not so secret) formula DYDT = (B<sub>y</sub>+C<sub>t</sub>D<sub>p</sub>)/P<sub>h</sub><sup>2</sup></h2></div>
+	<div class="dydt-row service"><h2>Four Elements, One (not so secret) formula DYDT = (B<sub>y</sub>+C<sub>t</sub>D<sub>p</sub>)/P<sub>h</sub><sup>2</sup></h2></div>
 	<div class="dydt-row buddy">
-		<img src="img/by.png" height="150" width="150" />
+		<img src="img/by.png" height="150" width="150" alt="Buddy Periodic Symbol" />
 		<p class="serv-title">Buddy</p>
 		<p class="serv-desc">Need a spare pair of hands loading up content, doing social or processing images? Do you need a second shooter to help you on shoots. Let us help ease the burden.</p>
 	</div>
 	<div class="dydt-row consult">
-		<img src="img/ct.png" height="150" width="150" />
+		<img src="img/ct.png" height="150" width="150" alt="Consult Periodic Symbol" />
 		<p class="serv-title">Consult</p>
 		<p class="serv-desc">We offer pre-project services including undertaking Feasibility Studies and helping to write requirement documents for companies looking to start new projects.</p>
 	</div>
 	<div class="dydt-row develop">
-		<img src="img/dp.png" height="150" width="150" />
+		<img src="img/dp.png" height="150" width="150"  alt="Develop Periodic Symbol"/>
 		<p class="serv-title">Develop</p>
 		<p class="serv-desc">We develop websites based on the Wordpress platform, working with small, medium and large companies and not just Cornwall or the UK to explore new opportunities online.</p>
 	</div>
 	<div class="dydt-row photograph">
-		<img src="img/ph.png" height="150" width="150" />
+		<img src="img/ph.png" height="150" width="150" alt="Photograph Periodic Symbol" />
 		<p class="serv-title">Photograph</p>
 		<p class="serv-desc">From PR to commissioned shoots, we have everything to take and process images ready for publication. We also offer post-processing services to make images shine.</p>
 	</div>
@@ -101,52 +99,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div>	
 	<a name="contactus"></a>
 	<div class="dydt-row contact">
-		<h4>CONTACT US TO FIND OUT MORE</h4>
+		<h4>HOW CAN WE HELP YOU?</h4>
 		<div class="contactlft">
 			<form id="contact-frm">
-				<ul>
+				<ol>
 					<li><label for="contactnm">Your Name </label><br/><input type="text" size="20" id="contactnm" name="contactnm" /></li>
 					<li><label for="contacttel">Contact Phone (Mobile or Landline) </label><br/><input type="text" size="20" id="contacttel" name="contacttel" /></li>
 					<li><label for="contactem">Contact Email </label><br/><input type="text" size="20" id="contactem" name="contactem" /></li>
-					<li><label for="contactbdy">How can we help you?</label><br/><textarea id="contactq" name="contactq"
+					<li><label for="contactq">How can we help you?</label><br/><textarea id="contactq" name="contactq"
 		 cols="50" rows="5"></textarea></li>
 		 			<li><input type="submit" class="subbut" name"submitfm" value="SUBMIT" /></li>
-				</ul>
-			</form>
-
-		<script type="text/javascript">
-        	jQuery(document).ready(function(){
-        		jQuery("#contact-frm").submit(function(){
-	        	event.preventDefault();
-		        var contactnm = jQuery("#contactnm").val();
-		        var contacttel = jQuery( "#contacttel" ).val();
-		        var contactem = jQuery( "#contactem" ).val();
-		        var contactq = jQuery( "#contactq" ).val();
-		        
-		        // Returns successful data submission message when the entered information is stored in database.
-		        var dataString = 'contactnm='+contactnm+'&contacttel='+contacttel+'&contactem='+contactem+'&contactq='+contactq;
-
-		        if(contactem === "" && contactq === "") {
-		         alert("Please kindly complete the Email and How can we help you fields"); 
-		        } else {
-		          // AJAX Code To Submit Form.
-		          jQuery.ajax({
-		          type: "POST",
-		          url: "inc/sendmemail.php",
-		          data: dataString,
-		          cache: false,
-		          success: function(result){
-		          	jQuery('#contact-frm').hide();
-		            jQuery('.contactlft').html("<div id='message'></div>");
-		            jQuery('#message').html('<br/><p>Thank you, we have sent your submission off. We will be in touch with you shortly.</p>');
-		          }
-		        });
-		        }
-		        return false;
-		        });
-	        });
-	    </script>
-			
+				</ol>
+			</form>			
 		</div>
 		<div class="contactrgt">
 			<p>You can also email us at: hey@doyoudothat.co.uk</p>
@@ -163,5 +127,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div>
 	<div class="dydt-row copyright"><p>&copy;<?php echo date("Y"); ?> Do you do that? All rights reserved.</p></div>	
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type='text/javascript' src='js/dydt.js?ver=1.0.0'></script>
 </body>
 </html>

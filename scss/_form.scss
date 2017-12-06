@@ -1,5 +1,5 @@
 #contact-frm { font-family: 'arial';
-	& ul { list-style: none; 
+	& ol { list-style: none; 
 		& li { margin-bottom: 20px; 
 		& input { margin-top: 10px; width: 100%; height: 40px; border: none; background: $elements;  border-radius: 8px; padding-left: 10px; }
 		& textarea { margin-top: 10px; width: 100%; height: 150px; border: none; background: $elements; border-radius: 8px; padding: 10px;}
@@ -7,7 +7,7 @@
 		& .subbut:hover { background-color: $dark; color: $white; }
 	 		 }
 		 }
-}
+} 
 
 @media (min-width: 321px) and (max-width: 767px) {
 	.contact { background: $light; }
