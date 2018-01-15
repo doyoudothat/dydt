@@ -1,1 +1,433 @@
-#contact-frm ol li,.main-menu,h1,p{margin-bottom:20px}.copyright p,.key,.main-menu a,.serv-title,h2,h3,h4{text-transform:uppercase}.contact p a,.main-menu a,.social a{text-decoration:none}@font-face{font-family:Simplifica;src:url(../font/Simplifica.eot);src:url(../font/Simplifica.eot?#iefix) format("embedded-opentype"),url(../font/Simplifica.woff) format("woff"),url(../font/Simplifica.ttf) format("truetype");font-weight:400;font-style:normal}h1,h2,h3,h4{font-family:Simplifica;letter-spacing:8px}h1{font-size:110%}h2,h3,h4{font-size:140%;text-align:center;margin:20px}.main-menu,p{font-size:1rem;font-family:arial,sans-serif;line-height:1.6em}.main-menu a{color:#fff;font-size:90%;cursor:pointer}.main-menu a:hover{color:#b8b7b7}.contact p a{color:#fff}a.cta{font-family:Simplifica;padding:15px 20px;background-color:#b8b7b7;border-radius:8px;font-size:200%;margin-top:20px;letter-spacing:5px;cursor:pointer;color:#1c1f22;text-align:center}*,body{padding:0;margin:0}a.cta:hover{background-color:#444648;color:#fff}.about p,.copyright p{width:60%}.copyright p{font-size:.7rem}@media only screen and (min-width:768px) and (max-width:980px){h2,h3,h4{font-size:180%}}@media only screen and (min-width:768px) and (max-width:1023px){h2,h3,h4{font-size:160%}}@media (min-width:321px) and (max-width:767px) and (orientation:portrait){h1{font-size:80%}.biggie{font-size:600%!important}a.cta{font-size:100%}}@media (min-width:321px) and (max-width:767px) and (orientation:landscape){h1{font-size:80%}.biggie{font-size:550%!important}label{font-size:70%}a.cta{font-size:100%}}@media (min-width:0) and (max-width:320px) and (orientation:portrait){h1{font-size:70%}h2,h3,h4{font-size:120%}.biggie{font-size:600%!important}}@media (min-width:0) and (max-width:320px) and (orientation:landscape){h1{font-size:70%}h2,h3,h4{font-size:120%}.biggie{font-size:630%!important}}#contact-frm{font-family:arial}#contact-frm ol{list-style:none}#contact-frm ol li input{margin-top:10px;width:100%;height:40px;border:none;background:#b8b7b7;border-radius:8px;padding-left:10px}#contact-frm ol li textarea{margin-top:10px;width:100%;height:150px;border:none;background:#b8b7b7;border-radius:8px;padding:10px}#contact-frm ol li .subbut{border-radius:8px}#contact-frm ol li .subbut:hover{background-color:#1c1f22;color:#fff}.menu,.service{background:#444648}@media (min-width:321px) and (max-width:767px){.contact{background:#444648}.contactlft{width:94%!important}.contactrgt{width:80%!important}}@media (min-width:0) and (max-width:320px){.contact{background:#444648}.contactlft{width:94%!important}.contactrgt{width:80%!important}}body{color:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}*{box-sizing:border-box}.cme{text-align:center}.biggie{font-size:800%;width:20%}.dydt--gridlayout{display:grid;width:98.7vw;height:100vh;grid-template-rows:repeat(8,auto);grid-template-columns:repeat(4,minmax(200px,.7fr));grid-template-areas:"header    header    header    header" "hero      hero      hero      hero" "services  services  services  services" "servicea  serviceb  servicec  serviced" "aboutus   aboutus   aboutus   aboutus" "contact   contact   contact   contact" "social    social    social    social" "footer    footer    footer    footer"}.menu{grid-area:header;padding:1% 0 1% 2%}.hero{grid-area:hero;background:#1c1f22;padding:6.5% 10% 2%;height:30vh}.service{grid-area:services;border:0;padding:1% 0 .5%}.buddy,.consult,.develop,.photograph{background:#444648;padding:10%}.buddy{grid-area:servicea}.consult{grid-area:serviceb}.develop{grid-area:servicec}.photograph{grid-area:serviced}.aboutus,.copyright,.social{background:#1c1f22}.aboutus{grid-area:aboutus;padding:1.5% 5% 3%}.contact{grid-area:contact;padding:1.5% 0 0 2.5%}.social{grid-area:social;padding:10px}.copyright{grid-area:footer;padding:.5% 1%}.aboutus p,.buddy img,.consult img,.copyright p,.develop img,.photograph img{text-align:center;display:block;margin:0 auto 20px}.logo,.main-menu{display:inline;float:left}.buddy .serv-title,.consult .serv-title,.develop .serv-title,.photograph .serv-title{margin:10px 0;text-align:center;font-size:160%;font-family:Simplifica;letter-spacing:8px}.main-menu{position:absolute;top:70px}.main-menu a{border-bottom:1px #fff dashed}p.serv-desc{font-size:80%;text-align:center}#contact-frm{position:relative;z-index:9999}.social-icons{display:block;margin:0 auto;text-align:center}.social a{background:#b8b7b7;border-radius:32px;display:inline-block;height:40px;width:40px;text-align:center;color:#1c1f22;margin:20px 10px 20px 0;padding:7px 0 0 1px;font-size:1.75rem}.contact{background:url(../img/contact-bg.png) right bottom no-repeat #444648}.contact .contactlft{float:left;width:50%}.contact .contactrgt{float:left;width:40%;padding-left:5%}@media (max-width:1064px){.dydt--gridlayout{grid-template-rows:repeat(9,auto);grid-template-columns:repeat(2,minmax(200px,1fr));grid-template-areas:"header    header" "hero      hero" "services  services" "servicea  serviceb" "servicec  serviced" "aboutus   aboutus" "contact   contact" "social    social" "footer    footer"}.hero{height:60vh}}@media (min-width:1380px){.hero{height:70vh}}@media (min-width:321px) and (max-width:767px) and (orientation:portrait){.hero{height:60vh}}@media (min-width:321px) and (max-width:767px) and (orientation:landscape){.hero{height:70vh}}@media (min-width:0) and (max-width:320px) and (orientation:portrait){.hero{height:60vh}}@media (min-width:0) and (max-width:320px) and (orientation:landscape){.hero{height:120vh}}@media only screen and (min-width:981px) and (max-width:1100px){.menu{height:25vh}.hero{height:80vh}.services{height:5vh}.contact{height:100vh}.aboutus p{width:80%}.buddy,.consult,.develop,.photograph{padding:3% 10%}}@media only screen and (min-width:768px) and (max-width:980px){.menu{height:17vh}.hero{height:60vh}.contact{height:80vh}.buddy,.consult,.develop,.photograph{padding:3% 10%}}@media (min-width:1065px) and (max-width:1380px){.hero{padding:4% 10% 2%;height:60vh}}@media (min-width:768px) and (max-width:1023px){.aboutus p{width:80%}}@media (max-width:767px){.dydt--gridlayout{grid-template-rows:repeat(11,auto);grid-template-columns:1fr;grid-template-areas:"header" "hero" "services" "servicea" "serviceb" "servicec" "serviced" "aboutus" "contact" "social" "footer"}.aboutus p{width:80%}.buddy,.consult,.develop,.photograph{padding:3% 10%!important}}@media (min-width:321px) and (max-width:767px){.menu{padding:10px 10px 40px}.logo{width:100%}.logo img{display:block;margin:auto}.main-menu{width:95%;display:block;margin:20px auto;top:140px;text-align:center}}@media (min-width:0) and (max-width:320px){.menu{height:220px!important}.logo{padding-top:10px;width:100%}.logo img{display:block;margin:auto}.main-menu{width:95%;display:block;margin:30px auto;top:140px;text-align:center}.hero{height:50vh}}
+@font-face {
+  font-family: 'Simplifica';
+  src: url("../font/Simplifica.eot");
+  src: url("../font/Simplifica.eot?#iefix") format("embedded-opentype"), url("../font/Simplifica.woff") format("woff"), url("../font/Simplifica.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+h1, h2, h3, h4 {
+  font-family: 'Simplifica';
+  letter-spacing: 8px; }
+
+h1 {
+  font-size: 110%;
+  margin-bottom: 20px; }
+
+h2, h3, h4 {
+  font-size: 140%; }
+
+h2, h3, h4 {
+  text-align: center;
+  margin: 20px;
+  text-transform: uppercase; }
+
+p, .main-menu {
+  font-size: 1rem;
+  font-family: 'arial', sans-serif;
+  margin-bottom: 20px;
+  line-height: 1.6em; }
+
+.main-menu a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 90%;
+  text-decoration: underline;
+  cursor: pointer; }
+
+.main-menu a:hover {
+  color: #b8b7b7; }
+
+.contact p a {
+  color: #fff;
+  text-decoration: none; }
+
+a.cta {
+  font-family: 'Simplifica';
+  padding: 15px 20px 15px 20px;
+  background-color: #b8b7b7;
+  border-radius: 8px;
+  font-size: 200%;
+  margin-top: 20px;
+  letter-spacing: 5px;
+  cursor: pointer;
+  color: #1c1f22;
+  text-align: center; }
+
+a.cta:hover {
+  background-color: #444648;
+  color: #fff; }
+
+.about p,
+.copyright p {
+  width: 60%; }
+
+.copyright p {
+  font-size: 0.7rem;
+  text-transform: uppercase; }
+
+.serv-title {
+  text-transform: uppercase; }
+
+.strike {
+  text-decoration: line-through; }
+
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+  h2, h3, h4 {
+    font-size: 180%; } }
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h2, h3, h4 {
+    font-size: 160%; } }
+@media (min-width: 321px) and (max-width: 767px) and (orientation: portrait) {
+  h1 {
+    font-size: 80%; }
+
+  .biggie {
+    font-size: 600% !important; }
+
+  a.cta {
+    font-size: 100%; } }
+@media (min-width: 321px) and (max-width: 767px) and (orientation: landscape) {
+  h1 {
+    font-size: 80%; }
+
+  .biggie {
+    font-size: 550% !important; }
+
+  label {
+    font-size: 70%; }
+
+  a.cta {
+    font-size: 100%; } }
+@media (min-width: 0) and (max-width: 320px) and (orientation: portrait) {
+  h1 {
+    font-size: 70%; }
+
+  h2, h3, h4 {
+    font-size: 120%; }
+
+  .biggie {
+    font-size: 600% !important; } }
+@media (min-width: 0) and (max-width: 320px) and (orientation: landscape) {
+  h1 {
+    font-size: 70%; }
+
+  h2, h3, h4 {
+    font-size: 120%; }
+
+  .biggie {
+    font-size: 630% !important; } }
+#contact-frm {
+  font-family: 'arial'; }
+  #contact-frm ol {
+    list-style: none; }
+    #contact-frm ol li {
+      margin-bottom: 20px; }
+      #contact-frm ol li input {
+        margin-top: 10px;
+        width: 100%;
+        height: 40px;
+        border: none;
+        background: #b8b7b7;
+        border-radius: 8px;
+        padding-left: 10px; }
+      #contact-frm ol li textarea {
+        margin-top: 10px;
+        width: 100%;
+        height: 150px;
+        border: none;
+        background: #b8b7b7;
+        border-radius: 8px;
+        padding: 10px; }
+      #contact-frm ol li .subbut {
+        border-radius: 8px; }
+      #contact-frm ol li .subbut:hover {
+        background-color: #1c1f22;
+        color: #fff; }
+
+@media (min-width: 321px) and (max-width: 767px) {
+  .contact {
+    background: #444648; }
+
+  .contactlft {
+    width: 94% !important; }
+
+  .contactrgt {
+    width: 80% !important; } }
+@media (min-width: 0) and (max-width: 320px) {
+  .contact {
+    background: #444648; }
+
+  .contactlft {
+    width: 94% !important; }
+
+  .contactrgt {
+    width: 80% !important; } }
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+.cme {
+  text-align: center; }
+
+.key {
+  text-transform: uppercase; }
+
+.biggie {
+  font-size: 800%;
+  width: 20%; }
+
+.dydt--gridlayout {
+  display: grid;
+  width: 98.7vw;
+  height: 100vh; }
+
+.dydt--gridlayout {
+  grid-template-rows: repeat(8, auto);
+  grid-template-columns: repeat(4, minmax(200px, 0.7fr));
+  grid-template-areas: "header    header    header    header" "hero      hero      hero      hero" "services  services  services  services" "servicea  serviceb  servicec  serviced" "aboutus   aboutus   aboutus   aboutus" "contact   contact   contact   contact" "social    social    social    social" "footer    footer    footer    footer"; }
+
+.menu {
+  grid-area: header;
+  background: #444648;
+  padding: 1% 0 1% 2%; }
+
+.hero {
+  grid-area: hero;
+  background: #1c1f22;
+  padding: 6.5% 10% 2% 10%;
+  height: 30vh; }
+
+.service {
+  grid-area: services;
+  background: #444648;
+  border: 0;
+  padding: 1% 0 0.5% 0; }
+
+.buddy {
+  grid-area: servicea;
+  background: #444648;
+  padding: 10%; }
+
+.consult {
+  grid-area: serviceb;
+  background: #444648;
+  padding: 10%; }
+
+.develop {
+  grid-area: servicec;
+  background: #444648;
+  padding: 10%; }
+
+.photograph {
+  grid-area: serviced;
+  background: #444648;
+  padding: 10%; }
+
+.aboutus {
+  grid-area: aboutus;
+  background: #1c1f22;
+  padding: 1.5% 5%  3%  5%; }
+
+.contact {
+  grid-area: contact;
+  background: #444648;
+  padding: 1.5% 0 0 2.5%; }
+
+.social {
+  grid-area: social;
+  background: #1c1f22;
+  padding: 10px; }
+
+.copyright {
+  grid-area: footer;
+  background: #1c1f22;
+  padding: 0.5% 1%; }
+
+.buddy img,
+.consult img,
+.develop img,
+.photograph img,
+.aboutus p,
+.copyright p {
+  text-align: center;
+  display: block;
+  margin: 0 auto 20px auto; }
+
+.buddy .serv-title,
+.consult .serv-title,
+.develop .serv-title,
+.photograph .serv-title {
+  margin: 10px 0 10px 0;
+  text-align: center;
+  font-size: 160%;
+  font-family: 'Simplifica';
+  letter-spacing: 8px; }
+
+.logo {
+  float: left;
+  display: inline; }
+
+.main-menu {
+  float: left;
+  display: inline;
+  position: absolute;
+  top: 70px; }
+  .main-menu a {
+    border-bottom: 1px #fff dashed;
+    text-decoration: none; }
+
+p.serv-desc {
+  font-size: 80%;
+  text-align: center; }
+
+#contact-frm {
+  position: relative;
+  z-index: 9999; }
+
+.social-icons {
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
+
+.social a {
+  background: #b8b7b7;
+  border-radius: 32px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #1c1f22;
+  margin: 20px 10px 20px 0;
+  padding: 7px 0 0 1px;
+  font-size: 1.75rem; }
+
+.contact {
+  background: #444648 url("../img/contact-bg.png") no-repeat;
+  background-position: right bottom; }
+  .contact .contactlft {
+    float: left;
+    width: 50%; }
+  .contact .contactrgt {
+    float: left;
+    width: 40%;
+    padding-left: 5%; }
+
+@media (max-width: 1064px) {
+  .dydt--gridlayout {
+    grid-template-rows: repeat(9, auto);
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-template-areas: "header    header" "hero      hero" "services  services" "servicea  serviceb" "servicec  serviced" 		 "aboutus   aboutus" "contact   contact" "social    social" "footer    footer"; }
+
+  .hero {
+    height: 60vh; } }
+@media (max-width: 767px) {
+  .dydt--gridlayout {
+    grid-template-rows: repeat(11, auto);
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "hero" "services" "servicea" "serviceb"	 		 "servicec" "serviced"	 		 		 "aboutus" "contact" "social" "footer"; } }
+@media (min-width: 1380px) {
+  .hero {
+    height: 60vh; } }
+@media (min-width: 321px) and (max-width: 767px) and (orientation: portrait) {
+  .hero {
+    height: 60vh; } }
+@media (min-width: 321px) and (max-width: 767px) and (orientation: landscape) {
+  .hero {
+    height: 70vh; } }
+@media (min-width: 0) and (max-width: 320px) and (orientation: portrait) {
+  .hero {
+    height: 60vh; } }
+@media (min-width: 0) and (max-width: 320px) and (orientation: landscape) {
+  .hero {
+    height: 120vh; } }
+/* Tablets in landscape mode (981-1100px) */
+@media only screen and (min-width: 981px) and (max-width: 1100px) {
+  .menu {
+    height: 25vh; }
+
+  .hero {
+    height: 80vh; }
+
+  .services {
+    height: 5vh; }
+
+  .contact {
+    height: 100vh; }
+
+  .aboutus p {
+    width: 80%; }
+
+  .buddy, .consult, .develop, .photograph {
+    padding: 3% 10% 3% 10%; } }
+/* Tablets in portrait mode (768-980px) */
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+  .menu {
+    height: 17vh; }
+
+  .hero {
+    height: 60vh; }
+
+  .contact {
+    height: 80vh; }
+
+  .buddy, .consult, .develop, .photograph {
+    padding: 3% 10% 3% 10%; } }
+@media (min-width: 1065px) and (max-width: 1380px) {
+  .hero {
+    padding: 4% 10% 2% 10%;
+    height: 60vh; } }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .aboutus p {
+    width: 80%; } }
+@media (max-width: 767px) {
+  .aboutus p {
+    width: 80%; }
+
+  .buddy, .consult, .develop, .photograph {
+    padding: 3% 10% 3% 10% !important; } }
+@media (min-width: 321px) and (max-width: 767px) {
+  .menu {
+    padding: 10px 10px 40px 10px; }
+
+  .logo {
+    width: 100%; }
+    .logo img {
+      display: block;
+      margin: auto; }
+
+  .main-menu {
+    width: 95%;
+    display: block;
+    margin: 20px auto;
+    top: 140px;
+    text-align: center; } }
+@media (min-width: 0) and (max-width: 320px) {
+  .menu {
+    height: 220px !important; }
+
+  .logo {
+    padding-top: 10px;
+    width: 100%; }
+    .logo img {
+      display: block;
+      margin: auto; }
+
+  .main-menu {
+    width: 95%;
+    display: block;
+    margin: 30px auto;
+    top: 140px;
+    text-align: center; }
+
+  .hero {
+    height: 50vh; } }
+
+/*# sourceMappingURL=dydt.css.map */

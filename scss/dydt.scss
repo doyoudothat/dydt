@@ -129,7 +129,7 @@ p.serv-desc { font-size: 80%; text-align: center; }
 
 //HEIGHTS
 
-@media ( min-width: 1380px ) { .hero { height: 70vh; } }
+@media ( min-width: 1380px ) { .hero { height: 60vh; } }
 @media (min-width: 321px) and (max-width: 767px) and (orientation:portrait) { .hero { height: 60vh; } }
 @media (min-width: 321px) and (max-width: 767px) and (orientation:landscape) { .hero { height: 70vh; } }
 @media (min-width: 0) and (max-width: 320px) and (orientation:portrait) { .hero { height: 60vh; } }

@@ -30,6 +30,8 @@ a.cta:hover { background-color: $light; color: $white; }
 
 .serv-title { text-transform: uppercase; }
 
+.strike { text-decoration: line-through; }
+
 @media only screen and ( min-width: 768px ) and ( max-width: 980px ) {
    h2, h3, h4 { font-size: 180%; }
 }

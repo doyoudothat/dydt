@@ -67,10 +67,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="dydt--gridlayout">
 	<div class="dydt-row menu">
-		<div class="logo"><img src="img/dydt-logo.png" height="150" width="170"/ alt="Do You Do That Logo"></div>
-		<div class="main-menu"><a class="formula">Formula</a>&nbsp;/&nbsp;<a class="about">About</a>&nbsp;/&nbsp;<a class="contactus">Contact</a></div>
+		<div class="logo"><img src="img/dydt-logo.png" height="150" width="170" alt="Do You Do That Logo" /></div>
+		<div class="main-menu" role="navigation"><a class="formula">Formula</a>&nbsp;/&nbsp;<a class="about">About</a>&nbsp;/&nbsp;<a class="contactus">Contact</a></div>
 	</div>
-	<div class="dydt-row hero"><div class="key"><h1>When I meet people I'm often asked<br/><span class="biggie">DO YOU DO THAT?</span><br/> Well, we do lots of things, so how can we help you?</h1><br><a class="contactus cta">How can we help you?</a></div></div>
+	<div class="dydt-row hero" role="main"><div class="key"><h1>When I meet people I'm often asked<br/><span class="biggie">DO YOU DO THAT?</span><br/> Well, we do lots of things, so how can we help you?</h1><br><a class="contactus cta">How can we help you?</a></div></div>
 	
 	<div class="dydt-row service"><h2>Four Elements, One (not so secret) formula DYDT = (B<sub>y</sub>+C<sub>t</sub>D<sub>p</sub>)/P<sub>h</sub><sup>2</sup></h2></div>
 	<div class="dydt-row buddy">
@@ -93,22 +93,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<p class="serv-title">Photograph</p>
 		<p class="serv-desc">From PR to commissioned shoots, we have everything to take and process images ready for publication. We also offer post-processing services to make images shine.</p>
 	</div>
-	<a name="about"></a>
 	<div class="dydt-row aboutus">
-		<div><h3>ABOUT US</h3><p>Unlike this site, not everything is <strike>black</strike> grey and white. When I meet people, when they find out what I do or what my backgound is, they inevitably ask whether I do this, or do that? And in answering them, I tend to say I do a lot of things. Do you do that? has been created as my way of helping people get to where they want to go. Our ethos is to keep things simple.</p><p>Do you do that? offers four distinct services, but we are not a jack of all trades organisation, the services are the outcome of over 20 years of having the privilege to work in each of the areas listed above. We don't have any clients at the moment, so it'll be kinda cool if you want to work with someone different and we've worked with lots of small, medium and large companies over the years, so we'd love to work with you on new and exciting ideas.</div>
+		<div><h3>ABOUT US</h3><p>Unlike this site, not everything is <span class="strike">black</span> grey and white. When I meet people, when they find out what I do or what my backgound is, they inevitably ask whether I do this, or do that? And in answering them, I tend to say I do a lot of things. Do you do that? has been created as my way of helping people get to where they want to go. Our ethos is to keep things simple.</p><p>Do you do that? offers four distinct services, but we are not a jack of all trades organisation, the services are the outcome of over 20 years of having the privilege to work in each of the areas listed above. We don't have any clients at the moment, so it'll be kinda cool if you want to work with someone different and we've worked with lots of small, medium and large companies over the years, so we'd love to work with you on new and exciting ideas.</div>
 	</div>	
-	<a name="contactus"></a>
 	<div class="dydt-row contact">
 		<h4>HOW CAN WE HELP YOU?</h4>
 		<div class="contactlft">
-			<form id="contact-frm">
+			<form id="contact-frm" role="form">
 				<ol>
 					<li><label for="contactnm">Your Name </label><br/><input type="text" size="20" id="contactnm" name="contactnm" /></li>
 					<li><label for="contacttel">Contact Phone (Mobile or Landline) </label><br/><input type="text" size="20" id="contacttel" name="contacttel" /></li>
 					<li><label for="contactem">Contact Email </label><br/><input type="text" size="20" id="contactem" name="contactem" /></li>
 					<li><label for="contactq">How can we help you?</label><br/><textarea id="contactq" name="contactq"
 		 cols="50" rows="5"></textarea></li>
-		 			<li><input type="submit" class="subbut" name"submitfm" value="SUBMIT" /></li>
+		 			<li><input type="submit" class="subbut" name="submitfm" value="SUBMIT" /></li>
 				</ol>
 			</form>			
 		</div>
